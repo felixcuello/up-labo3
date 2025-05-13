@@ -11,3 +11,13 @@ Ninguna de las cosas presentadas en este repositorio es parte de la materia ni d
 
 ## Contenido
 
+### Docker
+
+El contenedor de docker se basa en un repositorio que tiene [ancient Ubuntu
+versions](https://github.com/iComputer7/ancient-ubuntu-docker) ya que la versión que se requiere en la materia es del
+año 2007. Para ello se ha creado un `Makefile` y un contenedor de [Docker](./docker) que permite correr un entorno de
+desarrollo NO OFICIAL de la materia en simples pasos.
+
+Todas las entregas de la materia DEBEN hacerse en la VM oficial, este contenedor lo creé yo para mi propia comodidad y 
+para poder hacer pruebas de forma más rápida.
+
