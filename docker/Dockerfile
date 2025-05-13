@@ -8,4 +8,7 @@ RUN apt-get update -y && \
     libssl-dev \
     vim
 
+# Create a simple vim configuration
+RUN echo 'syntax on\nset number\nset tabstop=2\nset shiftwidth=2\nset expandtab\nset autoindent\nset hlsearch\nset incsearch\nset showmatch' > /root/.vimrc
+
 WORKDIR /app
