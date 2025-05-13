@@ -20,3 +20,6 @@ build:
 
 shell:
 	docker compose run --rm -ti service1 bash
+
+reshell:
+	docker compose exec -ti service1 bash
