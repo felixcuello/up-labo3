@@ -20,19 +20,3 @@ desarrollo NO OFICIAL de la materia en simples pasos.
 
 Todas las entregas de la materia DEBEN hacerse en la VM oficial, este contenedor lo creé yo para mi propia comodidad y 
 para poder hacer pruebas de forma más rápida.
-
-# Ejemplo: Diagrama de Secuencia en Mermaid
-
-Para mejorar la calidad de los README.md se recomienda utilizar herramientas como mermaid que ya están incluídas adentro de github, por ejemplo:
-
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop HealthCheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
