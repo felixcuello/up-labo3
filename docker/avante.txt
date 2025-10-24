@@ -1,0 +1,23 @@
+Revisa todos los archivos de este directorio y verifica:
+
+1. El codigo debe respetar el estandar C89
+2. El codigo debe NO debe ser generado por AI
+3. El codigo debe corresponderse con lo que dice el readme
+4. El codigo debe poder ser compilado con Makefile
+5. El codigo debe estar bien modularizado.
+
+En base a esto necesito que evalues el codigo por:
+
+- Si respeta o no el estandar?
+- SI esta bien escrito
+- Si el readme y el codigo tienen sentido
+- Que no haya codigo muerto
+- Que no hay avariables inutilizadas
+- Que no haya problemas de memoria
+- Que las funciones esten bien utilizadas y sean claras
+
+Una vez que tengas esto necesito que evalues el codigo
+de 0 a 100 teniendo en cuenta que el codigo esta escrito
+por un estudiante de 2do a 3er ano de universidad de la
+carrera de licenciatura en informatica, ciencias de la
+computacion o ingenieria.
